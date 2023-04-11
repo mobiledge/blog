@@ -22,6 +22,6 @@ class MyCollectionViewCell: UICollectionViewCell {
 
 | Not Grouped | Grouped |
 | ----------- | ----------- |
-| <video src='[your URL here](https://user-images.githubusercontent.com/6307250/231303003-9bbb4516-ae35-471f-a816-6a85068cc888.mov)' width=180/>      | <video src='[your URL here](https://user-images.githubusercontent.com/6307250/231303012-a3468b8a-839b-47c8-afe3-f8534028acb9.MP4)' width=180/>       |
+| <video src='https://user-images.githubusercontent.com/6307250/231303003-9bbb4516-ae35-471f-a816-6a85068cc888.mov'> | <video src='https://user-images.githubusercontent.com/6307250/231303012-a3468b8a-839b-47c8-afe3-f8534028acb9.MP4'> |
 
 
