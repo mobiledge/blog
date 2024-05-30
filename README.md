@@ -8,3 +8,6 @@
 
 #### Provisioning
 - [The Checkbox Conundrum](https://github.com/mobiledge/blog/blob/main/the-checkbox-conundrum.md)
+
+## Life
+- Unsatisfactoriness
