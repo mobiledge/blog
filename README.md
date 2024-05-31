@@ -9,8 +9,8 @@
 #### Tooling
 - [The Checkbox Conundrum](https://github.com/mobiledge/blog/blob/main/the-checkbox-conundrum.md)
 
-## Software Engineering
-#### [Obviousness](https://github.com/mobiledge/blog/blob/main/Obviousness.md)
+#### Software Engineering
+- [Obviousness](https://github.com/mobiledge/blog/blob/main/Obviousness.md)
 
 ## Life
 - [Unsatisfactoriness](https://github.com/mobiledge/blog/blob/main/life-unsatisfactoriness.md)
