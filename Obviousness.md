@@ -1,4 +1,4 @@
-# Obviousness
+# Simple is hard
 
 Writing bad code is easy, but writing good code is exponentially more difficult. The challenge isn't linear; it's a significant leap.
 
