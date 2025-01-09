@@ -10,7 +10,7 @@
 - [The Checkbox Conundrum](https://github.com/mobiledge/blog/blob/main/the-checkbox-conundrum.md)
 
 #### Software Engineering
-- [Obviousness](https://github.com/mobiledge/blog/blob/main/Obviousness.md)
+- [Simple is hard](https://github.com/mobiledge/blog/blob/main/simple-is-hard.md)
 
 ## Life
 - [Unsatisfactoriness](https://github.com/mobiledge/blog/blob/main/life-unsatisfactoriness.md)
