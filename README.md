@@ -13,7 +13,7 @@
 - [Simple is hard](https://github.com/mobiledge/blog/blob/main/simple-is-hard.md)
 
 ## Life
-- [Unsatisfactoriness](https://github.com/mobiledge/blog/blob/main/life-unsatisfactoriness.md)
+- [Dissatisfaction by design](/dissatisfaction-by-design.md)
 - [Neighbors are important](/neighbors-are-important.md)
 
 _Disclaimer: If my words sound smarter than I actually am, that's because I often get a little help from AI when putting my thoughts into words. (this disclaimer included)_
