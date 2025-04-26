@@ -47,9 +47,9 @@ suffixSum = scanr (+) 0 [3, 1, 4, 1, 5]
 
 The `scanl` function accumulates values from left to right, while `scanr` accumulates from right to left. Both include the initial value in their results.
 
-## Implementing `scanL` in Swift as an Array Extension
+## Implementing `scanl` in Swift
 
-We can add this functional capability to Swift by implementing a `scanl` extension on Array:
+Lets try to implement a `scanl` in Swift as an Array Extension.
 
 ```swift
 extension Array {
