@@ -4,6 +4,7 @@
 - [Grouping Subviews for Accessible Collection View Cells](/grouped-subviews-for-accessible-collection-view-cells.md)
 
 #### Swift
+- [Swift's 'any' and 'some' keywords]()
 - [Functional Prefix Sum in Swift](/fuctional-prefix-sum-in-swift.md)
 
 #### SwiftUI
