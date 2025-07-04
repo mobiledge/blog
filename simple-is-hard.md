@@ -1,6 +1,6 @@
 # Simple is hard
 
-Programmers often mistake complexity for cleverness. The truth is: writing complex code is easy. It takes real mastery to find the simple, obvious solution that makes everyone say 'of course!' That's the true mark of expertise. This is exponentially more difficult - it's a significant leap.
+Programmers often mistake complexity for cleverness. The truth is: writing complex code is easy. It takes real mastery to find the simple, obvious solution that makes everyone say 'of course!' That's the true mark of expertise. This is exponentially more difficult.
 
 In code reviews, I find it incredibly frustrating how easy it is to defend complexity, yet how hard it is to argue for simplicity. There's a phrase I've encountered recently that resonates with this idea: "It takes an enormous amount of energy to refute bullshit, more than it takes to create bullshit." 
 
