@@ -41,3 +41,29 @@ suffixSum = scanr (+) 0 [3, 1, 4, 1, 5]
 The `scanl` function accumulates values from left to right, while `scanr` accumulates from right to left. Both include the initial value in their results.
 
 TODO: Try and attempt to do something similar in Swift as an Array Extension such that calculating prefix sums becomes more elegant. I'll explore this implementation in the near future.
+
+/**
+ In certain problems however, it is more convinient to construct the prefix sum as the sum of all previous elements NOT INCLUDING the current element.
+ */
+
+## Variants
+In certain problems (like this one), it is more convinient to construct the prefix array as the sum of all previous elements NOT INCLUDING the current element.
+
+```swift
+var prefix2 = Array(repeating: 0, count: nums.count)
+for i in 1..<nums.count {
+    prefix2[i] = prefix2[i-1] + nums[i-1]
+}
+print(prefix2) /// [0, 3, 4, 8, 9]
+```
+
+Similarly, constructing a postfix array NOT INCLUDING the current element:
+
+```swift
+var postfix = Array(repeating: 0, count: nums.count)
+postfix[nums.count - 1] = 0
+for i in stride(from: nums.count - 2, through: 0, by: -1) {
+    postfix[i] = postfix[i+1] + nums[i+1]
+}
+print(postfix) /// [11, 10, 6, 5, 0]
+```
