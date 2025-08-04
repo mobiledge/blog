@@ -57,7 +57,6 @@ Similarly, constructing a postfix array NOT INCLUDING the current element:
 
 ```swift
 var postfix = Array(repeating: 0, count: nums.count)
-postfix[nums.count - 1] = 0
 for i in stride(from: nums.count - 2, through: 0, by: -1) {
     postfix[i] = postfix[i+1] + nums[i+1]
 }
