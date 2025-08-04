@@ -40,10 +40,10 @@ suffixSum = scanr (+) 0 [3, 1, 4, 1, 5]
 
 The `scanl` function accumulates values from left to right, while `scanr` accumulates from right to left. Both include the initial value in their results.
 
-TODO: Try and attempt to do something similar in Swift as an Array Extension such that calculating prefix sums becomes more elegant. I'll explore this implementation in the near future.
+> TODO: Try and attempt to do something similar in Swift as an Array Extension such that calculating prefix sums becomes more elegant. I'll explore this implementation in the near future.
 
 ## Variants
-In certain problems (like this one), it is more convinient to construct the prefix array as the sum of all previous elements NOT INCLUDING the current element.
+In certain problems (like [this](https://leetcode.com/problems/product-of-array-except-self/) one), it is more convinient to construct the prefix array as the sum of all previous elements NOT INCLUDING the current element.
 
 ```swift
 var prefix2 = Array(repeating: 0, count: nums.count)
