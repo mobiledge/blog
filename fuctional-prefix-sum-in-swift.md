@@ -50,7 +50,7 @@ var prefix2 = Array(repeating: 0, count: nums.count)
 for i in 1..<nums.count {
     prefix2[i] = prefix2[i-1] + nums[i-1]
 }
-print(prefix2) /// [0, 3, 4, 8, 9]
+print(prefix2) // [0, 3, 4, 8, 9]
 ```
 
 Similarly, constructing a postfix array NOT INCLUDING the current element:
@@ -60,5 +60,6 @@ var postfix = Array(repeating: 0, count: nums.count)
 for i in stride(from: nums.count - 2, through: 0, by: -1) {
     postfix[i] = postfix[i+1] + nums[i+1]
 }
-print(postfix) /// [11, 10, 6, 5, 0]
+print(postfix) // [11, 10, 6, 5, 0]
 ```
+_Note that you didn't need to explicitly set the first (or last in postfix) element like you did before._
