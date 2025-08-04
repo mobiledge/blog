@@ -6,6 +6,7 @@
 #### Swift
 - [Swift's 'any' and 'some' keywords](/swifts-any-and-some-keywords.md)
 - [Functional Prefix Sum in Swift](/fuctional-prefix-sum-in-swift.md)
+- Traversing an Array in Reverse
 
 #### SwiftUI
 - [Weirdness of SwiftUI's `ForEach` Constructor with Ranges](/swiftui-foreach-range-weirdness.md)
