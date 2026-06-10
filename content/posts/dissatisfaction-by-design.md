@@ -1,9 +1,9 @@
 ---
 title: "Dissatisfaction by Design"
-weight: 1
+date: 2024-05-30
+categories: ["Life"]
+summary: "A short reflection on dissatisfaction as a constant feature of life, seen through a Buddhist lens."
 ---
-
-# Dissatisfaction by design
 
 Dissatisfaction is inherent to life. Regardless of our circumstances, whether things are good or bad, dissatisfaction remains constant. Perhaps our world was designed to be this way. 
 

@@ -4,8 +4,10 @@ title = "Notes & Posts"
 theme = "hugo-book"
 
 [params]
-  BookSection = "docs"
-  BookToC = true
+  BookSection = "posts"
+  BookToC = false
+  BookSearch = false
+  BookDateFormat = "January 2, 2006"
 
 [markup.goldmark.renderer]
   unsafe = true

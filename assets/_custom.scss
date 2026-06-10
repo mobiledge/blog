@@ -3,10 +3,36 @@ body,
   font-family: 'Lora', Georgia, serif;
 }
 
-.book-toc a {
-  color: #555;
+// Minimalist single-column blog: hide the sidebar menu (the docs-style post
+// list) and center the article in a comfortable reading column.
+.book-menu {
+  display: none;
+}
 
-  &:hover {
+.book-page {
+  flex: 0 1 auto;
+  width: 100%;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+// No sidebar/TOC to open, so hide the mobile toggle buttons too.
+.book-header label[for="menu-control"],
+.book-header label[for="toc-control"] {
+  display: none;
+}
+
+// Small centered home link at the top of each post (injected via content-before).
+.blog-masthead {
+  margin-bottom: 2.5rem;
+  font-size: var(--font-size-smaller, 0.875rem);
+
+  a {
+    color: #888;
+    text-decoration: none;
+  }
+
+  a:hover {
     color: #222;
   }
 }

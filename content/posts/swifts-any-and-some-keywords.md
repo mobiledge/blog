@@ -1,9 +1,10 @@
 ---
 title: "Swift's 'any' and 'some' Keywords"
-weight: 1
+date: 2025-05-01
+categories: ["Coding"]
+tags: ["Swift"]
+summary: "What Swift's 'any' and 'some' keywords actually do under the hood, and when to reach for each."
 ---
-
-#  Swift's 'any' and 'some' keywords
 
 When using `any`, under the hood, Swift implements a wrapper structure with closures that mirror the protocol methods.
 

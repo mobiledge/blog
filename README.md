@@ -9,16 +9,12 @@ Published via GitHub Pages: https://mobiledge.github.io/blog/
 ```
 content/
   _index.md            # landing page
-  docs/
-    accessibility/
-    swift/
-    swiftui/
-    tooling/
-    software-engineering/
-    life/
+  posts/
+    _index.md          # blog section
+    <post>.md          # one Markdown file per post
 ```
 
-Each category folder has an `_index.md` (section title + weight) and one Markdown file per post. Post ordering within a section is controlled by the `weight` front-matter field.
+Posts use hugo-book's blog layout (`BookSection = "posts"`): they're listed newest-first by `date`. Each post has a broad `category` (Coding or Life) and finer-grained `tags` (Swift, SwiftUI, Tooling, ...), surfaced as taxonomy pages under `/categories/` and `/tags/`.
 
 ## Local development
 
@@ -36,12 +32,14 @@ git submodule update --init --recursive
 
 ## Adding a post
 
-Create a Markdown file under the relevant `content/docs/<category>/` folder with front matter:
+Create a Markdown file under `content/posts/` with front matter:
 
 ```yaml
 ---
 title: "Your Post Title"
-weight: 1
+date: 2026-01-15
+categories: ["Coding"]   # Coding or Life
+tags: ["Swift"]          # optional: Swift, SwiftUI, Tooling, ...
 ---
 ```
 

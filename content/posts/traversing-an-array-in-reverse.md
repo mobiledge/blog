@@ -1,9 +1,10 @@
 ---
 title: "Traversing an Array in Reverse"
-weight: 3
+date: 2025-08-04
+categories: ["Coding"]
+tags: ["Swift"]
+summary: "Iterating a Swift array in reverse: comparing reversed() ranges against stride for clarity and performance."
 ---
-
-# Traversing an Array in Reverse
 
 Working on [this](https://leetcode.com/problems/product-of-array-except-self/description/) problem today, I needed to iterate through an array in reverse.
 

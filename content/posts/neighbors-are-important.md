@@ -1,9 +1,9 @@
 ---
 title: "Neighbors are Important"
-weight: 2
+date: 2025-04-13
+categories: ["Life"]
+summary: "Why getting along with the neighbors next to you matters more than ideological closeness with people far away."
 ---
-
-# Neighbors are important
 
 I've noticed we tend to value ideological proximity over physical proximity. That is, we think it's fine to _just_ hang out with people whose ideologies are similar to ours, while not valuing those who're right next to us but have a belief system different from ours. I think this is a mistake. Whether at the societal/political level, or at the level of individual households, getting along with your neighbors is more important than getting along with somebody far away. Time and again I've seen local differences being exploited by outside parties, making them worse off in the long run.
 

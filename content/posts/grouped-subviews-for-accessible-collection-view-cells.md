@@ -1,9 +1,10 @@
 ---
 title: "Grouping Subviews for Accessible Collection View Cells"
-weight: 1
+date: 2023-04-11
+categories: ["Coding"]
+tags: ["Accessibility"]
+summary: "How to make a custom UICollectionViewCell read as a single VoiceOver element by grouping its subviews."
 ---
-
-# Grouping Subviews for Accessible Collection View Cells
 
 By default, the subviews of a **custom** `UICollectionViewCell` are treated as separate accessibility elements by VoiceOver. This can be problematic if the cell contains multiple subviews, such as a title label, subtitle label, and an image, which can be challenging to navigate for some users.
 

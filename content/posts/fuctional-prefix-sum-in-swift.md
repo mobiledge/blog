@@ -1,9 +1,10 @@
 ---
 title: "Functional Prefix Sum in Swift"
-weight: 2
+date: 2025-04-26
+categories: ["Coding"]
+tags: ["Swift"]
+summary: "Computing a prefix sum in Swift functionally with reduce(into:), compared to a plain loop."
 ---
-
-# Functional Prefix Sum in Swift
 
 A prefix sum of an array is a new array where each element is the sum of all previous elements plus the current element in the original array. For example, given the array `[3, 1, 4, 1, 5]`, its prefix sum would be: `[3, 4, 8, 9, 14]`. Prefix sums show up in various algorithms and data structure problems and are useful for quickly calculating the sum of any subarray.
 

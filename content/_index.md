@@ -7,32 +7,14 @@ bookToc: false
 
 A collection of short notes on software, Swift, and life.
 
-## Accessibility
-
-- [Grouping Subviews for Accessible Collection View Cells]({{< relref "docs/accessibility/grouped-subviews-for-accessible-collection-view-cells" >}})
-
-## Swift
-
-- [Swift's 'any' and 'some' Keywords]({{< relref "docs/swift/swifts-any-and-some-keywords" >}})
-- [Functional Prefix Sum in Swift]({{< relref "docs/swift/fuctional-prefix-sum-in-swift" >}})
-- [Traversing an Array in Reverse]({{< relref "docs/swift/traversing-an-array-in-reverse" >}})
-
-## SwiftUI
-
-- [Weirdness of SwiftUI's `ForEach` Constructor with Ranges]({{< relref "docs/swiftui/swiftui-foreach-range-weirdness" >}})
-
-## Tooling
-
-- [The Checkbox Conundrum]({{< relref "docs/tooling/the-checkbox-conundrum" >}})
-
-## Software Engineering
-
-- [Simple is Hard]({{< relref "docs/software-engineering/simple-is-hard" >}})
-
-## Life
-
-- [Dissatisfaction by Design]({{< relref "docs/life/dissatisfaction-by-design" >}})
-- [Neighbors are Important]({{< relref "docs/life/neighbors-are-important" >}})
+Browse all writing under [Posts]({{< relref "posts" >}}), by category
+[Coding]({{< relref "/categories/coding" >}}) · [Life]({{< relref "/categories/life" >}}),
+or by tag:
+[Accessibility]({{< relref "/tags/accessibility" >}}) ·
+[Swift]({{< relref "/tags/swift" >}}) ·
+[SwiftUI]({{< relref "/tags/swiftui" >}}) ·
+[Tooling]({{< relref "/tags/tooling" >}}) ·
+[Software Engineering]({{< relref "/tags/software-engineering" >}})
 
 ---
 
