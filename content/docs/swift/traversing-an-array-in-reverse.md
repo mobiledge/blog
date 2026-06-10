@@ -1,3 +1,8 @@
+---
+title: "Traversing an Array in Reverse"
+weight: 3
+---
+
 # Traversing an Array in Reverse
 
 Working on [this](https://leetcode.com/problems/product-of-array-except-self/description/) problem today, I needed to iterate through an array in reverse.

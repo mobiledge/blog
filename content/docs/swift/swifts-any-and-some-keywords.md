@@ -1,3 +1,8 @@
+---
+title: "Swift's 'any' and 'some' Keywords"
+weight: 1
+---
+
 #  Swift's 'any' and 'some' keywords
 
 When using `any`, under the hood, Swift implements a wrapper structure with closures that mirror the protocol methods.

@@ -1,0 +1,11 @@
+baseURL = "https://mobiledge.github.io/blog/"
+languageCode = "en-us"
+title = "Notes & Posts"
+theme = "hugo-book"
+
+[params]
+  BookSection = "docs"
+  BookToC = true
+
+[markup.goldmark.renderer]
+  unsafe = true

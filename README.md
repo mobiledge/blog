@@ -1,27 +1,54 @@
 # blog
 
-#### Accessibility
-- [Grouping Subviews for Accessible Collection View Cells](/grouped-subviews-for-accessible-collection-view-cells.md)
+Source for my personal blog, **Notes & Posts** — built with [Hugo](https://gohugo.io/) and the [hugo-book](https://github.com/alex-shpak/hugo-book) theme.
 
-#### Swift
-- [Swift's 'any' and 'some' keywords](/swifts-any-and-some-keywords.md)
-- [Functional Prefix Sum in Swift](/fuctional-prefix-sum-in-swift.md)
-- [Traversing an Array in Reverse](/traversing-an-array-in-reverse.md)
+Published via GitHub Pages: https://mobiledge.github.io/blog/
 
-#### SwiftUI
-- [Weirdness of SwiftUI's `ForEach` Constructor with Ranges](/swiftui-foreach-range-weirdness.md)
+## Structure
 
-#### Tooling
-- [The Checkbox Conundrum](/the-checkbox-conundrum.md)
+```
+content/
+  _index.md            # landing page
+  docs/
+    accessibility/
+    swift/
+    swiftui/
+    tooling/
+    software-engineering/
+    life/
+```
 
-#### Software Engineering
-- [Simple is hard](/simple-is-hard.md)
+Each category folder has an `_index.md` (section title + weight) and one Markdown file per post. Post ordering within a section is controlled by the `weight` front-matter field.
 
-## Life
-- [Dissatisfaction by design](/dissatisfaction-by-design.md)
-- [Neighbors are important](/neighbors-are-important.md)
+## Local development
+
+```bash
+git clone --recurse-submodules https://github.com/mobiledge/blog.git
+cd blog
+hugo server
+```
+
+If you already cloned without `--recurse-submodules`:
+
+```bash
+git submodule update --init --recursive
+```
+
+## Adding a post
+
+Create a Markdown file under the relevant `content/docs/<category>/` folder with front matter:
+
+```yaml
+---
+title: "Your Post Title"
+weight: 1
+---
+```
+
+## Deployment
+
+Pushing to `main` triggers the GitHub Actions workflow in `.github/workflows/hugo.yml`, which builds the site and deploys it to GitHub Pages.
+
+---
 
 _Disclaimer: If my words sound smarter than I actually am, that's because I often get AI help when putting my thoughts into words. (this disclaimer included)_
-
-
-

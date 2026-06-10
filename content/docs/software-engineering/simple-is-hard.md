@@ -1,3 +1,8 @@
+---
+title: "Simple is Hard"
+weight: 1
+---
+
 # Simple is hard
 
 Programmers often mistake complexity for cleverness. The truth is: writing complex code is easy. It takes real mastery to find the simple, obvious solution that makes everyone say 'of course!' That's the true mark of expertise. This is exponentially more difficult.

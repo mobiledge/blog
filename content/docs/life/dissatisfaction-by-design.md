@@ -1,3 +1,8 @@
+---
+title: "Dissatisfaction by Design"
+weight: 1
+---
+
 # Dissatisfaction by design
 
 Dissatisfaction is inherent to life. Regardless of our circumstances, whether things are good or bad, dissatisfaction remains constant. Perhaps our world was designed to be this way. 
