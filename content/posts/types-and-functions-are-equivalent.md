@@ -2,7 +2,7 @@
 title: "Types & Functions Are Equivalent"
 date: 2026-06-10
 categories: ["Coding"]
-tags: ["Swift"]
+tags: ["Swift", "Functional Programming"]
 summary: "How a type and a function can be equivalent in Swift — declaring the same thing as a struct or as a function returning closures."
 ---
 
